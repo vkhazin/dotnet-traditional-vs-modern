@@ -3,16 +3,16 @@
 ## Objectives
 
 - Validate assumptions about dotnet performance using different approaches
-- Implement two version of the code: traditional and modern
+- Implement two versions of the code: traditional and modern
 - Compare performance of the two approaches: run-time and memory allocation
-- Use the same tool, input, and the same host for profiling purposes
+- Use the same IDE, input, and the same host for profiling purposes
 
 ## Method Used
 
-- Implement two version of the code:
+- Implement two versions of the code:
   - [Traditional](Core/TraditionalDictionary.cs) 
   - and [Modern](Core/ModernDictionary.cs)
-- Run a profile to compare run-time and memory allocation
+- Run a profile to compare timeline and memory allocation
 - JetBrain Rider Profiler on Ubuntu 22.04 was used for testing purposes
   - 16 Cores 11th Gen Intel(R) Core(TM) i7-11850H @ 2.50GHz
   - 32GB RAM
@@ -31,4 +31,6 @@
 ## Conclusions
 
 - To my surprise it is not in favour of modern implementation
+- The traditional was about 5 times faster than the modern
+- The traditional consumed less than half the memory of the modern
 - Have I missed something optimizing the modern approach?
