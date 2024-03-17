@@ -3,8 +3,8 @@
 ## Objectives
 
 - Validate assumptions about dotnet performance using different approaches
-- Implement two versions of the code: traditional and modern
-- Compare performance of the two approaches: run-time and memory allocation
+- Implement a couple versions of the code: traditional, modern, and functional
+- Compare performance of the approaches: run-time and memory allocation
 - Use the same IDE, input, and the same host for profiling purposes
 
 ## Method Used
