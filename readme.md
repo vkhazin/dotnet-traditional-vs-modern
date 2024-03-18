@@ -2,6 +2,7 @@
 
 ## Objectives
 
+- Convert two lists into a dictionary and compare different approaches
 - Validate assumptions about dotnet performance using different approaches
 - Implement a couple versions of the code: traditional, modern, and functional
 - Compare performance of the approaches: run-time and memory allocation
